@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/create_pdf"
+        android:icon="@drawable/create"
+        android:title="Create PDF" />
+
+    <item
+        android:id="@+id/pdf_privicy"
+        android:icon="@drawable/sec"
+        android:title="PDF Privacy" />
+
+    <item
+        android:id="@+id/editor_pdf"
+        android:icon="@drawable/editor"
+        android:title="PDF Editor" />
+
+    <item
+        android:id="@+id/view_pdf"
+        android:icon="@drawable/view"
+        android:title="View PDF" />
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/more"
+        android:title="More" />
+
+</menu>
