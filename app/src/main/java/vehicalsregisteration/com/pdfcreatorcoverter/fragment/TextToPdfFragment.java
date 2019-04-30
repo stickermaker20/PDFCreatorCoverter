@@ -129,7 +129,7 @@ public class TextToPdfFragment extends Fragment implements OnItemClickListner {
         PageSizeUtils.mPageSize = mSharedPreferences.getString(Constants.DEFAULT_PAGE_SIZE_TEXT,
                 Constants.DEFAULT_PAGE_SIZE);
         mFontSize = mSharedPreferences.getInt(Constants.DEFAULT_FONT_SIZE_TEXT, Constants.DEFAULT_FONT_SIZE);
-        interstitialAd = new com.facebook.ads.InterstitialAd(getActivity(), "YOUR_PLACEMENT_ID");
+        interstitialAd = new com.facebook.ads.InterstitialAd(getActivity(),"interstitial");
         // Set listeners for the Interstitial Ad
         interstitialAd.setAdListener(new InterstitialAdListener() {
             @Override
@@ -175,7 +175,7 @@ public class TextToPdfFragment extends Fragment implements OnItemClickListner {
         // at least 30 seconds before it is shown
         interstitialAd.loadAd();
 
-        com.facebook.ads.AdView adView = new com.facebook.ads.AdView(getContext(), "YOUR_PLACEMENT_ID", AdSize.BANNER_HEIGHT_50);
+        com.facebook.ads.AdView adView = new com.facebook.ads.AdView(getContext(), "banr", AdSize.BANNER_HEIGHT_50);
 
         // Find the Ad Container
         LinearLayout adContainer = (LinearLayout) rootview.findViewById(R.id.banner_container);

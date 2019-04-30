@@ -113,7 +113,7 @@ public class ViewFilesFragment extends Fragment
         mViewFilesListRecyclerView.setAdapter(mViewFilesAdapter);
         mViewFilesListRecyclerView.addItemDecoration(new ViewFilesDividerItemDecoration(root.getContext()));
         mSwipeView.setOnRefreshListener(this);
-        interstitialAd = new com.facebook.ads.InterstitialAd(getActivity(), "YOUR_PLACEMENT_ID");
+        interstitialAd = new com.facebook.ads.InterstitialAd(getActivity(), "interstitial");
         // Set listeners for the Interstitial Ad
         interstitialAd.setAdListener(new InterstitialAdListener() {
             @Override

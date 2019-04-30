@@ -76,7 +76,7 @@ public class ExceltoPdfFragment extends Fragment {
         ButterKnife.bind(this, rootview);
         mMorphButtonUtility.morphToGrey(mCreateExcelPdf, mMorphButtonUtility.integer());
         mCreateExcelPdf.setEnabled(false);
-        com.facebook.ads.AdView adView = new com.facebook.ads.AdView(getContext(), "YOUR_PLACEMENT_ID", AdSize.BANNER_HEIGHT_50);
+        com.facebook.ads.AdView adView = new com.facebook.ads.AdView(getContext(), "banr", AdSize.BANNER_HEIGHT_50);
 
         // Find the Ad Container
         LinearLayout adContainer = (LinearLayout) rootview.findViewById(R.id.banner_container);

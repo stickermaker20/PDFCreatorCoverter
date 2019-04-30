@@ -45,7 +45,7 @@ public class MorePDFFragment  extends Fragment {
         zip_to_pdf=view.findViewById(R.id.zip_to_pdf);
         bundle = new Bundle();
         fragmentManager = getFragmentManager();
-        interstitialAd = new com.facebook.ads.InterstitialAd(getActivity(), "YOUR_PLACEMENT_ID");
+        interstitialAd = new com.facebook.ads.InterstitialAd(getActivity(), "interstitial");
         // Set listeners for the Interstitial Ad
         interstitialAd.setAdListener(new InterstitialAdListener() {
             @Override

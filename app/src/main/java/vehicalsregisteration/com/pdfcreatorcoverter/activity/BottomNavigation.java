@@ -18,6 +18,7 @@ import com.facebook.ads.Ad;
 import com.facebook.ads.AdError;
 import com.facebook.ads.AdSize;
 import com.facebook.ads.InterstitialAdListener;
+import com.facebook.ads.NativeBannerAd;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -40,15 +41,19 @@ public class BottomNavigation extends AppCompatActivity {
     Fragment fragment = null;
     InterstitialAd mInterstitialAd1;
     boolean doubleBackToExitPressedOnce = false;
+
+
     com.facebook.ads.InterstitialAd interstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottom_navigation);
+        PlaystoreDownloadCheck playstoreDownloadCheck=new PlaystoreDownloadCheck();
         navigation = (BottomNavigationView) findViewById(R.id.navigation);
         loadFragment(new CreatePdfFragment());
-        com.facebook.ads.AdView adView = new com.facebook.ads.AdView(this, "YOUR_PLACEMENT_ID", AdSize.BANNER_HEIGHT_50);
+        com.facebook.ads.AdView adView = new com.facebook.ads.AdView(this, "1988236181472360_1988236318139013", AdSize.BANNER_HEIGHT_50);
+
 
         // Find the Ad Container
         LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
@@ -57,7 +62,11 @@ public class BottomNavigation extends AppCompatActivity {
         adContainer.addView(adView);
 
         // Request an ad
-        adView.loadAd();
+
+        if (PlaystoreDownloadCheck.verifyInstallerId(this)) {
+            adView.loadAd();
+        }
+
         AppRate.with(this)
                 .setInstallDays(0) // default 10, 0 means install day.
                 .setLaunchTimes(2) // default 10
@@ -76,7 +85,7 @@ public class BottomNavigation extends AppCompatActivity {
 
         // Show a dialog if meets conditions
         AppRate.showRateDialogIfMeetsConditions(this);
-        interstitialAd = new com.facebook.ads.InterstitialAd(getApplicationContext(), "YOUR_PLACEMENT_ID");
+        interstitialAd = new com.facebook.ads.InterstitialAd(getApplicationContext(), "628091200984644_628092087651222");
         // Set listeners for the Interstitial Ad
         interstitialAd.setAdListener(new InterstitialAdListener() {
             @Override
@@ -118,9 +127,15 @@ public class BottomNavigation extends AppCompatActivity {
             }
         });
 
+
+
+
         // For auto play video ads, it's recommended to load the ad
         // at least 30 seconds before it is shown
-        interstitialAd.loadAd();
+        if (PlaystoreDownloadCheck.verifyInstallerId(this)) {
+
+            interstitialAd.loadAd();
+        }
         navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
 
             @Override
