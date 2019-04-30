@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+            <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                 android:id="@+id/scan_qrcode"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
                 app:option_icon="@drawable/ic_qrcode_24dp"
                 app:option_text="@string/scan_qrcode" />
 
-            <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+            <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                 android:id="@+id/scan_barcode"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

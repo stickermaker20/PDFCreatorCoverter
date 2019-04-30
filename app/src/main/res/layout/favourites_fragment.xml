@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/images_to_pdf_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
                     app:option_icon="@drawable/ic_menu_camera"
                     app:option_text="Images to PDF" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/text_to_pdf_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
                     app:option_icon="@drawable/ic_text_format_black_24dp"
                     app:option_text="@string/text_to_pdf" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/qr_barcode_to_pdf_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/view_files_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                     app:option_icon="@drawable/ic_menu_gallery"
                     app:option_text="@string/viewFiles" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/view_history_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/add_password_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
                     app:option_icon="@drawable/ic_lock_black_24dp"
                     app:option_text="@string/add_password" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/remove_password_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/rotate_pages_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
                     app:option_icon="@drawable/baseline_crop_rotate_24"
                     app:option_text="@string/rotate_pages" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/add_watermark_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
                     app:option_icon="@drawable/ic_branding_watermark_black_24dp"
                     app:option_text="@string/add_watermark" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/add_images_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -139,7 +139,7 @@
                 android:orientation="horizontal">
 
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/merge_pdf_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -148,7 +148,7 @@
                     app:option_icon="@drawable/ic_merge_type_black_24dp"
                     app:option_text="@string/merge_pdf" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/split_pdf_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/invert_pdf_fav"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -173,7 +173,7 @@
                     app:option_icon="@drawable/ic_invert_color_24dp"
                     app:option_text="@string/invert_pdf" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/compress_pdf_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
                     app:option_icon="@drawable/ic_compress_image"
                     app:option_text="@string/compress_pdf" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/remove_duplicates_pages_pdf_fav"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -198,7 +198,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/remove_pages_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -207,7 +207,7 @@
                     app:option_icon="@drawable/ic_remove_circle_black_24dp"
                     app:option_text="@string/remove_pages" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/rearrange_pages_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -223,7 +223,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/extract_images_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -232,7 +232,7 @@
                     app:option_icon="@drawable/ic_broken_image_black_24dp"
                     app:option_text="@string/extract_images" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/pdf_to_images_fav"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -241,7 +241,7 @@
                     app:option_icon="@drawable/ic_image_black_24dp"
                     app:option_text="@string/pdf_to_images" />
 
-                <vehicalsregisteration.com.pdfcreatorcoverter.customviews.MyCardView
+                <pdfconvertores.com.pdfcreatorcoverter.customviews.MyCardView
                     android:id="@+id/excel_to_pdf"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

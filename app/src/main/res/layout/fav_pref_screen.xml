@@ -17,7 +17,7 @@
            xmlns:app="http://schemas.android.com/apk/res-auto" />
     </android.support.design.widget.AppBarLayout>
     <fragment android:id="@+id/activity_settings"
-    android:name="vehicalsregisteration.com.pdfcreatorcoverter.fragment.FavouritesPref"
+    android:name="pdfconvertores.com.pdfcreatorcoverter.fragment.FavouritesPref"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="20dp"
