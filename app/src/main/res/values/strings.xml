@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">PDF Converter Tools</string>
     <string name="title">PDF Actions</string>
- <string name="interstitial_full_screen">ca-app-pub-3817223/1100111</string>
+    <string name="interstitial_full_screen">ca-app-pub-3817223/1100111</string>
     <string name="file_name_text">File Name</string>
     <string name="select_images_text">Select Images</string>
     <string name="password_protect_pdf_text">Password Protect PDF</string>
@@ -510,8 +510,10 @@
     <string name="add_to_favourite">Add to Favourite</string>
 
 
- <!--this is check wheressloads my appe -->
- <string name="play_store_package_name">pdfconvertores.com.pdfcreatorcoverter</string>
+    <!--this is check wheressloads my appe -->
+    <string name="play_store_package_name">pdfconvertores.com.pdfcreatorcoverter</string>
+    <string name="fb_native_banner_ads_app_id">410092699537123_410092799537113</string>
+
 
 
 </resources>
